@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.home;
 
 import java.awt.*;
 
@@ -14,6 +14,12 @@ public class Ball extends Sprite {
     Ball() {
         halfHeight = 20 + (float)(Math.random() * 50f);
         halfWidth = halfHeight;
+    }
+
+    Ball(int x, int y) {
+        this();
+        this.x = x;
+        this.y = y;
     }
 
     @Override

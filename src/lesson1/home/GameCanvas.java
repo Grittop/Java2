@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.home;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +10,6 @@ public class GameCanvas extends JPanel {
 
     GameCanvas(MainCircles gameWindow) {
         this.gameWindow = gameWindow;
-        setBackground(Color.BLUE);
         lastFrameTime = System.nanoTime();
     }
 
