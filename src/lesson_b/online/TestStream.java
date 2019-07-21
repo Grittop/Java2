@@ -1,4 +1,4 @@
-package lesson_b.lesson_b.online;
+package lesson_b.online;
 
 import java.io.Closeable;
 import java.io.FileNotFoundException;
