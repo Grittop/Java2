@@ -3,6 +3,7 @@ package lesson_a.games.common;
 import javax.swing.*;
 import java.awt.*;
 
+
 public class GameCanvas extends JPanel {
 
     CanvasListener gameWindow;
